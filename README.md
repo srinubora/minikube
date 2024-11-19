@@ -52,6 +52,7 @@ sudo minikube start --driver=docker --force
 minikube status
 
 kubectl get nodes
+![Screenshot 2024-11-19 004053](https://github.com/user-attachments/assets/495bedc3-f380-47b1-a810-b79ae5d21502)
 
 creation of pod
 
