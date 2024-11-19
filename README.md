@@ -85,6 +85,37 @@ spec:
 ![Screenshot 2024-11-19 014257](https://github.com/user-attachments/assets/ef11792e-7181-423b-b40f-e6c9c31cd539)
 kubectl api-resources
 ![Screenshot 2024-11-19 020319](https://github.com/user-attachments/assets/2f28aea4-42c9-460b-90e2-7a93c8fbed64)
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
 
+  name: cms-rs
+  
+  namespace: default
+  
+spec:
 
+  replicas: 3
+  
+  selector:
+  
+    matchLabels:
+    
+      app: cms
+      
+  template:
+  
+    metadata:
+    
+      labels:
+      
+        app: cms
+        
+    spec:
+
+      containers:
+      
+        - name: nginx
+        
+          image: nginx:latest
 
