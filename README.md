@@ -83,5 +83,6 @@ spec:
     - containerPort: 80
     - 
 :wq!
+![Screenshot 2024-11-19 014257](https://github.com/user-attachments/assets/ef11792e-7181-423b-b40f-e6c9c31cd539)
 
 
