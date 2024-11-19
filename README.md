@@ -22,6 +22,7 @@ systemctl status docker
 sudo curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 
 
 ll
+![Screenshot 2024-11-18 232555](https://github.com/user-attachments/assets/84296b20-a230-45a8-9c55-7c0e4da2d89f)
 
 sudo mv minikube-linux-amd64 /usr/local/bin/minikube
 
@@ -33,7 +34,7 @@ sudo apt install curl wget apt-transport-https -y
 
 sudo curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 
-sudo kubectl version --client
+sudo kubectl version --client 
 
 sudo curl -LO "https://dl.k8s.io/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
 
