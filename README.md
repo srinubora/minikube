@@ -8,6 +8,7 @@ apt update -y
 sudo curl -fsSL https://get.docker.com -o get-docker.sh
 
 ll	
+![Screenshot 2024-11-18 230900](https://github.com/user-attachments/assets/1472abc5-2528-4c80-bac6-d452a60141bc)
 
 chmod 700 get-docker.sh
 
