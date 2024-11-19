@@ -45,6 +45,7 @@ sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 sudo kubectl version --client
 
 sudo kubectl version --client --output=yaml
+![Screenshot 2024-11-19 003114](https://github.com/user-attachments/assets/b4244b07-e040-4f6b-a94e-d56b016f2ba0)
 
 sudo minikube start --driver=docker --force
 
