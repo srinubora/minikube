@@ -118,4 +118,6 @@ spec:
         - name: nginx
         
           image: nginx:latest
+![Screenshot 2024-11-19 023737](https://github.com/user-attachments/assets/96cdf479-1282-40be-bbec-7e592481eee2)
+![Screenshot 2024-11-19 025214](https://github.com/user-attachments/assets/36e40865-c169-4c87-9b43-09355de80822)
 
