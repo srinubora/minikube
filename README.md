@@ -49,6 +49,10 @@ sudo kubectl version --client --output=yaml
 
 sudo minikube start --driver=docker --force
 
+minikube status
+
+kubectl get nodes
+
 creation of pod
 
 kubectl run pod1 --image=nginx
