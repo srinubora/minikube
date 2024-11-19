@@ -58,5 +58,7 @@ creation of pod
 
 kubectl run pod1 --image=nginx
 
-kubectl get pods
+kubectl get pods![Screenshot 2024-11-19 005211](https://github.com/user-attachments/assets/c649fee1-91da-478b-b776-caf1b9634a9d)
+
+
 
