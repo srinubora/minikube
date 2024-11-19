@@ -17,6 +17,7 @@ chmod +x get-docker.sh
 docker version
 
 systemctl status docker
+![Screenshot 2024-11-18 231341](https://github.com/user-attachments/assets/0010ecf1-7ff5-4423-a54f-258dcefdaf50)
 
 sudo curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 
 
